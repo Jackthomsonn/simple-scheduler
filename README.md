@@ -12,5 +12,5 @@ scheduler:
 ```
 
 ```
-docker run -e CONTAINER_NAME=value1 -e DELAY_SECONDS=100 -e FREQUENCY_SECONDS jackthomson/simple-scheduler
+docker run -e CONTAINER_NAME=container:port|api -e DELAY_SECONDS=10 -e FREQUENCY_SECONDS=60 jackthomson/simple-scheduler
 ```
